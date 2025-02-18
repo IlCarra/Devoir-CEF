@@ -42,12 +42,11 @@
   box-shadow: -1px 1px 4px 1px grey;
 }
 
-.Line {
+.homeLine {
   border: 1px solid rgb(17, 68, 235);
   height: 3px;
   background-color: rgb(17, 68, 235);
   margin: 15px 0;
-  width: 100%;
 }
 
 .profile {
@@ -79,6 +78,29 @@
 .htmlBar, .cssBar, .phpBar, .jsBar, .reactBar {
   margin: 10px 0;
 }
+
+.bi {
+  font-size: 2rem;
+  padding: 10px;
+}
+.row {
+  margin: auto 15vw;
+}
+.card:hover {
+  background-color: #1144eb;
+  color: white;
+}
+.mesServices {
+  margin: 20px auto; 
+}
+.serviceLine {
+  border: 1px solid #1144eb;
+  height: 3px;
+  background-color: #1144eb;
+  width: 37vw;
+  margin-left: 31vw;
+}
+
 
 .App {
   text-align: center;
