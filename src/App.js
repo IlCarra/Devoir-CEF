@@ -1,8 +1,8 @@
 import './App.css';
-import CustomNavBar from './pages/navbar';
+import CustomNavBar from './components/navbar';
 import { Routes, Route } from "react-router-dom";
 import Home from './pages/home';
-import About from './pages/apropos';
+
 
 function App() {
   return (
@@ -10,7 +10,6 @@ function App() {
       <CustomNavBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/apropos' element={<About />} />
 
       </Routes>
     </div>
