@@ -1,14 +1,18 @@
 import './App.css';
-import CustomNavBar from './components/navbar';
+import CustomNavBar from './pages/navbar';
+import { Routes, Route } from "react-router-dom";
+import Home from './pages/home';
+import About from './pages/apropos';
 
 function App() {
   return (
     <div className="App">
       <CustomNavBar />
-        <div className='Background'>
-          <h1>Bonjour je suis Stevan Carrara</h1>
-          <h2>Développeur Full-Stack</h2>
-        </div>   
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/apropos' element={<About />} />
+
+      </Routes>
     </div>
   );
 }
