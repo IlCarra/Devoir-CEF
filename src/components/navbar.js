@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function CustomNavBar() {
 return (
@@ -6,8 +7,8 @@ return (
         <div class="container-fluid">
           <a class="navbar-brand" href='.'>Stevan Carrara</a>
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              <a class="nav-link" href="#services">Services</a>
+              <Link className='link' to="/">Home </ Link>
+              <Link className='link' to="../pages/services">Services </ Link>
               <a class="nav-link" href="#portfolio">Portfolio</a>
               <a class="nav-link" href="#contact">Contact</a>
               <a class="nav-link" href="#mentionslegales">Mentions légales</a>

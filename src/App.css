@@ -1,10 +1,18 @@
 .navbar-nav{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
-.nav-link{
+.link {
   padding-right: 10px;
+  text-decoration: none;
+  color: grey;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: white;
 }
 
 .container-fluid {
