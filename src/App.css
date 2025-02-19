@@ -93,7 +93,7 @@
 .mesServices {
   margin: 20px auto; 
 }
-.serviceLine {
+.serviceLine, .portfolioLine {
   border: 1px solid #1144eb;
   height: 3px;
   background-color: #1144eb;
@@ -101,6 +101,9 @@
   margin-left: 31vw;
 }
 
+.realisations {
+  margin: 30px auto;
+}
 
 .App {
   text-align: center;

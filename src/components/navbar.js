@@ -9,7 +9,7 @@ return (
             <div class="navbar-nav">
               <Link className='link' to="/">Home </ Link>
               <Link className='link' to="../pages/service">Services </ Link>
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <Link className='link' to="../pages/portfolio">Portfolio </ Link>
               <a class="nav-link" href="#contact">Contact</a>
               <a class="nav-link" href="#mentionslegales">Mentions légales</a>
             </div>
