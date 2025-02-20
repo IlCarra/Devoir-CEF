@@ -94,7 +94,7 @@
 .mesServices {
   margin: 20px auto; 
 }
-.serviceLine, .portfolioLine{
+.serviceLine, .portfolioLine, .mentionsLine{
   border: 1px solid #1144eb;
   height: 3px;
   background-color: #1144eb;
@@ -145,6 +145,23 @@
 .personalInfo p{
   margin: 0;
 }
+
+.mentionsTitle {
+  margin: 25px auto;
+}
+.accordionComponent {
+  margin: 45px 150px;
+}
+.accordion-body {
+  text-align: start;
+}
+.accordion-body i{
+  margin: 0 8px 0 0;
+}
+.accordion-body p{
+  margin: 5px auto;
+}
+
 
 .App {
   text-align: center;
