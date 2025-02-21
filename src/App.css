@@ -1,18 +1,17 @@
-.container-fluid{
+.nav-container{
   display: flex;
   justify-content: space-between;
+  padding: 0 20px;
 }
 .link {
   padding-right: 10px;
   text-decoration: none;
   color: grey;
 }
-.link:hover {
+.link:hover, .active, .f-link:hover {
   text-decoration: underline;
+  font-weight: bold;
   color: white;
-}
-.container-fluid {
-  padding: 0 20px;
 }
 .Background {
   background-image: url('/public/images/software-developer-6521720_1280.jpg');
@@ -149,6 +148,21 @@
   margin: 5px auto;
 }
 
+.row-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.my-column, .f-link{
+  color: white;
+  text-decoration: none;
+}
+.list-inline-item i{
+  color: grey;
+  font-size: 2rem;
+}
+.list-inline-item i:hover {
+  color: white;
+}
 
 .App {
   text-align: center;
