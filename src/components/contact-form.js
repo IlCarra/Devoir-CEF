@@ -9,7 +9,7 @@ function ContactForm() {
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Sujet" />
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="14" placeholder="Votre message"></textarea>
         <div className='button'>
-            <input class="btn btn-primary" type="submit" value="Envoyer"></input>
+            <input class="btn btn-primary contactBtn" type="submit" value="Envoyer"></input>
         </div>
     </form>
     );

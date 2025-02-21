@@ -1,3 +1,11 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, strong {
+  font-weight: bold;
+}
+
+
 .nav-container{
   display: flex;
   justify-content: space-between;
@@ -13,6 +21,7 @@
   font-weight: bold;
   color: white;
 }
+
 .Background {
   background-image: url('/public/images/software-developer-6521720_1280.jpg');
   background-position: center;
@@ -25,6 +34,21 @@
   justify-content: center;
   align-items: center;
   color: white;
+}
+.modalBtn{
+  background-color: red;
+  border: transparent;
+}
+.modalBtn:hover{
+  background-color: #f16464;
+}
+.modal-image{
+  max-width: 50%;
+  height: 50%;
+  margin: 20px 10px;
+}
+.modal-body{
+  display: flex;
 }
 .profile-container {
   display: flex;
@@ -91,7 +115,7 @@
 .realisations {
   margin: 30px auto;
 }
-.btn-primary:hover {
+.projectCard:hover, .contactBtn:hover {
   background-color: #4492ec;
 }
 

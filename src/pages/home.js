@@ -1,5 +1,6 @@
 import React from 'react';
 import ProgressBars from '../components/progressbar';
+import Modal from '../components/modal';
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
         <div className='Background'>
           <h1>Bonjour je suis Stevan Carrara</h1>
           <h2>Développeur Full-Stack</h2>
+          <Modal />
         </div>
         <div className='profile-container'>
           <div className='profile'>
