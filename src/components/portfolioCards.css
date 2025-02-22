@@ -1,0 +1,7 @@
+.realisations {
+    margin: 30px auto;
+}
+
+.projectCard:hover, .contactBtn:hover {
+    background-color: #4492ec;
+}

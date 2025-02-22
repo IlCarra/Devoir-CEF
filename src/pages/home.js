@@ -1,6 +1,7 @@
 import React from 'react';
 import ProgressBars from '../components/progressbar';
 import Modal from '../components/modal';
+import './home.css';
 
 
 const Home = () => {

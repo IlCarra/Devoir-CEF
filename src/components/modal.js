@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import './modal.css';
 
 function Modal() {
     const [data, setData] = useState(null);
