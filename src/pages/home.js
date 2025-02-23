@@ -13,7 +13,7 @@ const Home = () => {
           <div className='profile'>
             <div className='aboutMe'>
               <h2>A propos</h2>
-              <div className='Line'></div>
+              <div className='homeLine'></div>
               <img src="/images/AboutMe.jpg" alt='Développer'></img>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquam malesuada cursus. 
@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             <div className='Skills'>
               <h2>Mes competences</h2>
-            <div className='Line'></div>
+            <div className='homeLine'></div>
               <ProgressBars />
             </div>
           </div>

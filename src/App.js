@@ -1,9 +1,10 @@
 import './App.css';
+import React from 'react';
 import CustomNavBar from './components/navbar';
 import Footer from './components/footer';
 import { Routes, Route } from "react-router-dom";
 import Home from './pages/home';
-import Services from './pages/services';
+import Services from './pages/service';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <CustomNavBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/services' element={<Services />} />
+        <Route path='/pages/service' element={<Services />} />
 
       </Routes>
       <Footer />
