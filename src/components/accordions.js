@@ -1,4 +1,5 @@
 import React from 'react';
+import './accordions.css';
 
 function Accordions() {
     return(

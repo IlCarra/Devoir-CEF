@@ -1,0 +1,15 @@
+.bi-code-slash, .bi-brush, .bi-search {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .row {
+    margin: auto 15vw;
+  }
+  .card:hover {
+    background-color: #1144eb;
+    color: white;
+    box-shadow: 3px 2px 8px #1144eb;
+  }
+  .mesServices {
+    margin: 20px auto; 
+  }

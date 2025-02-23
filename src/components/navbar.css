@@ -1,0 +1,17 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+  
+.link {
+    padding-right: 10px;
+    text-decoration: none;
+    color: grey;
+}
+  
+.link:hover, .active, .f-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
