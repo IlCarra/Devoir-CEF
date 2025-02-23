@@ -43,12 +43,28 @@ h1, h2, h3, h4, h5, strong {
   background-color: #f16464;
 }
 .modal-image{
-  max-width: 50%;
-  height: 50%;
-  margin: 20px 10px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.modal-dialog-centered{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .modal-body{
   display: flex;
+  justify-content: space-evenly;
+  margin: auto 20px;
+  text-align: start;
+}
+.modal-info{
+  margin-left: 30px;
+}
+.modal-info i{
+  margin-right: 10px;
 }
 .profile-container {
   display: flex;
