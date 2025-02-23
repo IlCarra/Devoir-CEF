@@ -1,6 +1,6 @@
 import React from 'react';
 import ProgressBars from '../components/progressbar';
-import Footer from '../components/footer';
+
 
 const Home = () => {
     return (
@@ -33,8 +33,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        <Footer />
     </main>
   );
 };
