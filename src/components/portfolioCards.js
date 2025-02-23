@@ -10,7 +10,7 @@ function PortfolioCards() {
                 <div class="card-body">
                   <h5 class="card-title">Fresh Food</h5>
                   <p class="card-text">Site de vente de produits frais en ligne</p>
-                  <a href="/" class="btn btn-primary">Voire le site</a>
+                  <a href="/" class="btn btn-primary projectCard">Voire le site</a>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Site réalisé avec PHP et MySQL</small>
@@ -24,7 +24,7 @@ function PortfolioCards() {
                 <div class="card-body">
                   <h5 class="card-title">Restaurant Akira</h5>
                   <p class="card-text">Site de vente de produits frais en ligne</p>
-                  <a href="/" class="btn btn-primary">Voire le site</a>
+                  <a href="/" class="btn btn-primary projectCard">Voire le site</a>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Site réalisé avec WorkPress</small>
@@ -38,7 +38,7 @@ function PortfolioCards() {
                 <div class="card-body">
                   <h5 class="card-title">Espace Bien-etre</h5>
                   <p class="card-text">Site de vente de produits frais en ligne</p>
-                  <a href="/" class="btn btn-primary">Voire le site</a>
+                  <a href="/" class="btn btn-primary projectCard">Voire le site</a>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Site réalisé avec LARAVEL</small>
@@ -52,7 +52,7 @@ function PortfolioCards() {
                 <div class="card-body">
                   <h5 class="card-title">SEO</h5>
                   <p class="card-text">Amélioration du référencement d'un site e-commerce</p>
-                  <a href="/" class="btn btn-primary">Voire le site</a>
+                  <a href="/" class="btn btn-primary projectCard">Voire le site</a>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Utilisation des outils SEO</small>
@@ -66,7 +66,7 @@ function PortfolioCards() {
                 <div class="card-body">
                   <h5 class="card-title">Création d'une API</h5>
                   <p class="card-text">Création d'une API RESTFULL publique</p>
-                  <a href="/" class="btn btn-primary">Voire le site</a>
+                  <a href="/" class="btn btn-primary projectCard">Voire le site</a>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">PHP - SYMFONY</small>
@@ -80,7 +80,7 @@ function PortfolioCards() {
                 <div class="card-body">
                   <h5 class="card-title">Maquette d'un site web</h5>
                   <p class="card-text">Création d'un prototype d'un site</p>
-                  <a href="/" class="btn btn-primary">Voire le site</a>
+                  <a href="/" class="btn btn-primary projectCard">Voire le site</a>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">Réalisé avec FIGMA</small>
