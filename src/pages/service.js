@@ -3,6 +3,7 @@ import React from 'react';
 const Services = () => {
     return (
         <main>
+
             <div className='Banner-img'>
                 <img src='../images/Banner.jpg' alt='Banner'></img>
             </div>
@@ -11,7 +12,10 @@ const Services = () => {
                 <p>Voici les prestations sur lesquelles je peux intervenire</p>
                 <div className='serviceLine'></div>
             </div>
+
+
             <div class="row row-cols-1 row-cols-md-3 g-4">
+
                 <div class="col">
                     <div class="card h-100">
                         <i class="bi bi-brush"></i>
@@ -25,6 +29,7 @@ const Services = () => {
                             </div>
                     </div>
                 </div>
+
                 <div class="col">
                     <div class="card h-100">
                         <i class="bi bi-code-slash"></i>
@@ -38,6 +43,7 @@ const Services = () => {
                             </div>
                     </div>
                 </div>
+                
                 <div class="col">
                     <div class="card h-100">
                         <i class="bi bi-search"></i>
@@ -51,7 +57,10 @@ const Services = () => {
                             </div>
                     </div>
                 </div>
+
             </div>
+
+
         </main>
     );
 };
