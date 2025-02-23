@@ -89,6 +89,7 @@
 .card:hover {
   background-color: #1144eb;
   color: white;
+  box-shadow: 3px 2px 8px #1144eb;
 }
 .mesServices {
   margin: 20px auto; 
@@ -103,6 +104,9 @@
 
 .realisations {
   margin: 30px auto;
+}
+.btn-primary:hover {
+  background-color: #4492ec;
 }
 
 .App {
