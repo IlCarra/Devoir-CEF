@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+This is a CEF homework made by Stevan Carrara.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It contains a portfolio consisting of several pages, which represents the student's journey during their online training with CEF - Centre Européen de Formation, as a full stack web developer.
+
+Below you can find the instructions and commands to create and open a React app.
+
+# To start the React app
+
+Be sure to have installed Node.js from the namesake website.
+Once installed Node, in the terminal type "npm create-react-app (project-name)".
+Navigate in the directory with "cd (project-name)".
 
 ## Available Scripts
 
