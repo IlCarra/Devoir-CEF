@@ -9,7 +9,7 @@ function Accordions() {
         Editeur de site
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
       <h4>Stevan Carrara</h4>
       <p><i class="bi bi-map"></i>40 rue Laure Diebold</p>
