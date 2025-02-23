@@ -10,7 +10,7 @@ return (
               <Link className='link' to="/">Home </ Link>
               <Link className='link' to="../pages/service">Services </ Link>
               <Link className='link' to="../pages/portfolio">Portfolio </ Link>
-              <a class="nav-link" href="#contact">Contact</a>
+              <Link className='link' to="../pages/contact">Contact </ Link>
               <a class="nav-link" href="#mentionslegales">Mentions légales</a>
             </div>
           </div>

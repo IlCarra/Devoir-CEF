@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from './pages/home';
 import Services from './pages/service';
 import Portfolio from './pages/portfolio';
+import Contact from './pages/contact';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/pages/service' element={<Services />} />
         <Route path='/pages/portfolio' element={<Portfolio />} />
+        <Route path='/pages/contact' element={<Contact />} />
 
       </Routes>
       <Footer />
