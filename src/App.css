@@ -25,17 +25,27 @@
   color: white;
 }
 
-.container {
+.profile-container {
   display: flex;
   justify-content: center;
-  padding: 30px 0;
+  padding: 25px 0;
+  margin: 30px 150px;
+  border: transparent;
+  box-shadow: -1px 1px 4px 1px grey;
+}
+
+.Line {
+  border: 1px solid rgb(17, 68, 235);
+  height: 3px;
+  background-color: rgb(17, 68, 235);
+  margin: 15px 0;
+  width: 100%;
 }
 
 .profile {
   display: flex;
   width: 75vw;
   height: 100vh;
-  border: 1px solid black;
 }
 
 .profile img {
@@ -45,7 +55,6 @@
 
 .aboutMe, .Skills {
   width: 38vw;
-  border: 1px solid black;
   margin: 10px;
   padding: 20px;
   text-align: start;
@@ -60,7 +69,7 @@
 }
 
 .htmlBar, .cssBar, .phpBar, .jsBar, .reactBar {
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .App {
