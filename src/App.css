@@ -43,7 +43,7 @@
   height: 50%;
 }
 
-.aboutMe {
+.aboutMe, .Skills {
   width: 38vw;
   border: 1px solid black;
   margin: 10px;
@@ -53,6 +53,14 @@
 
 .aboutMe p {
   margin: 5px 0;
+}
+
+.Bars p{
+  margin: 0;
+}
+
+.htmlBar, .cssBar, .phpBar, .jsBar, .reactBar {
+  margin: 10px;
 }
 
 .App {

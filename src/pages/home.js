@@ -1,4 +1,5 @@
 import React from 'react';
+import ProgressBars from './progressbar';
 
 const Home = () => {
     return (
@@ -27,6 +28,7 @@ const Home = () => {
           <div className='Skills'>
             <h2>Mes competences</h2>
             <hr></hr>
+            <ProgressBars />
           </div>
         </div>
         </div>
