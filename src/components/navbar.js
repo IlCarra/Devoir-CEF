@@ -11,7 +11,7 @@ return (
               <Link className='link' to="../pages/service">Services </ Link>
               <Link className='link' to="../pages/portfolio">Portfolio </ Link>
               <Link className='link' to="../pages/contact">Contact </ Link>
-              <a class="nav-link" href="#mentionslegales">Mentions légales</a>
+              <Link className='link' to="../pages/mentions-legales">Mentions Légales</Link>
             </div>
           </div>
     </nav>
